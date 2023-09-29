@@ -1,5 +1,8 @@
-body{background-color:  black;
-color: white;}
+body{
+background-color:  black;
+color: white;
+margin-left: 20px;
+}
 .bfit{
     text-decoration: none;
     color: skyblue;
@@ -12,4 +15,20 @@ color: white;}
 
 .site_adj{
     height: 500px;
+}
+
+.dec{
+    list-style: none;
+}
+
+.sk_sizeUp{
+    font-size: 30px;
+}
+
+.abt_sizeUp{
+    font-size: 30px;
+}
+
+.title_sizeUp{
+    font-size: 60px;
 }
