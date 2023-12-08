@@ -57,40 +57,40 @@
 </form>
 
 <script>
-    function add(num1,num2)
-    {return num1+num2;}
+    function add(num1, num2)
+    {return num1 + num2;}
     
-    function subtract(num1,num2)
-    {return num1-num2;}
+    function subtract(num1, num2)
+    {return num1 - num2;}
     
-    function multiply(num1,num2)
-    {return num1*num2;}
+    function multiply(num1, num2)
+    {return num1 * num2;}
     
-    function divide(num1,num2)
-    {return num1/num2;}
+    function divide(num1, num2)
+    {return num1 / num2;}
 
-    function caculator(num1,num2,operator)
-    {return operator(num1,num2);}
+    function caculator(num1, num2, operator)
+    {return operator(num1, num2);}
 
     var num1 = parseFloat(prompt("Pleae enter the first number: "));
     var num2 = parseFloat(prompt("Pleae enter the second number: "));
-    var operator = prompt("Pleae enter the operator (+,-,*,/):"));
+    var operator = prompt("Pleae enter the operator (+,-,*,/):");
 
     var result;
 
-    switch(operator)
+    switch (operator)
     {
         case "+":
-            result = caculator(num1,num2,add);
+            result = caculator(num1, num2, add);
             break;
             case "-":
-            result = caculator(num1,num2,subtract);
+            result = caculator(num1, num2, subtract);
             break;
             case "*":
-            result = caculator(num1,num2,multiply);
+            result = caculator(num1, num2, multiply);
             break;
             case "/":
-            result = caculator(num1,num2,divide);
+            result = caculator(num1, num2, divide);
             break;
             default
             result = "Invalid operator";
