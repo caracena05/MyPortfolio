@@ -69,12 +69,12 @@
     function divide(num1,num2)
     {return num1/num2;}
 
-    functioncaculator(num1,num2,operator)
+    function caculator(num1,num2,operator)
     {return operator(num1,num2);}
 
     var num1 = parseFloat(prompt("Pleae enter the first number: "));
     var num2 = parseFloat(prompt("Pleae enter the second number: "));
-    var operator = parseFloat(prompt("Pleae enter the operator (+,-,*,/):"));
+    var operator = prompt("Pleae enter the operator (+,-,*,/):"));
 
     var result;
 
@@ -95,7 +95,8 @@
             default
             result = "Invalid operator";
     }
-    console.log("Result:", result);
+    
+    console.log("Result: ", result);
 </script>
 </body>
 </html>
